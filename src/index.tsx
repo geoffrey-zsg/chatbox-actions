@@ -22,7 +22,7 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals()
 
-// 禁止右键点击菜单在 release 中的展示
+// 禁止右键点击菜单在 release 中 的展示
 function disableMenu() {
     if (window.location.hostname !== 'tauri.localhost') {
         return
